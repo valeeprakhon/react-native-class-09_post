@@ -6,7 +6,7 @@ class Firestore {
   constructor() {
     if (!firebase.apps.length) {
       //firebase.initializeApp(FIREBASE_CONFIG);
-      firebase.initializeApp({ projectId: 'myproject-b75da' });
+      firebase.initializeApp({ projectId: 'xxxxxxxxxxx' });
     } else {
       console.log('firebase apps already running...');
     }
